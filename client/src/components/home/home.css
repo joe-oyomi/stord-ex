@@ -1,0 +1,112 @@
+.form-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.form-container form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+.title-container {
+  flex-basis: 45%;
+}
+
+.link-container {
+  flex-basis: 45%;
+}
+
+.description-container {
+  flex-basis: 100%;
+}
+
+
+.element-container div, input, textarea{
+  width: 100%;
+}
+
+
+.element-container  textarea{
+  resize: none;
+}
+
+.element-container input, textarea {
+  min-height: 2rem;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: black;
+  font-size: 16px;
+  line-height: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.element-container div {
+  font-size: 14px;
+  padding: 10px 2px;
+  font-weight: 500;
+}
+
+.element-container {
+  padding: 10px 0px;
+}
+
+.submit-button {
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 2px;
+  opacity: 0.8;
+  transition: 0.5s opacity ease-in-out;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.submit-button:hover {
+  opacity: 1;
+  transition: 0.5s opacity ease-in-out;
+  transition: 0.2s background-color ease-in-out;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+.shorten-link-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.response-element {
+  padding: 5px;
+}
+
+.response-element-link {
+  color: blue;
+}
+
+.response-element:hover {
+  opacity: 0.7;
+  cursor: pointer
+}
+
+.input-error-fields {
+  color: red;
+  min-height: 20px;
+}

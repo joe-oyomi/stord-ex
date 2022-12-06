@@ -1,0 +1,9 @@
+.not-found-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  font-size: 5rem;
+}

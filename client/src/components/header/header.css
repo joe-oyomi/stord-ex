@@ -1,0 +1,27 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 70px;
+  align-items: center;
+  padding: 0px 10px;
+  position: sticky;
+  top: 0
+}
+
+.header-link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: large;
+  line-height: 20px;
+}
+
+.header-logo {
+  border: 2px solid whitesmoke;
+  border-radius: 25px;
+  padding: 5px
+}
+
+.header-stats:hover{
+  text-decoration: underline;
+}

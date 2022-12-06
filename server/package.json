@@ -1,0 +1,36 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && nyc --reporter=html --reporter=text mocha ./src/spec/*.js --timeout 60000 --exit",
+    "cover": "nyc --reporter=html --reporter=text npm test",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "pg": "^8.8.0",
+    "shortid": "^2.2.16",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "autocannon": "^7.10.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "coveralls": "^3.1.1",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20",
+    "nyc": "^15.1.0"
+  },
+  "type": "module"
+}

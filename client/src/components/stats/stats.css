@@ -1,0 +1,100 @@
+.stats-container {
+  max-width: 95%;
+  margin: 10vh auto;
+  overflow: scroll;
+  max-height: 80vh;
+}
+
+
+.stats-table {
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  width: 100%;
+}
+.stats-table thead {
+  background-color: black;
+  color: whitesmoke;
+  height: 40px;
+}
+
+.stats-table thead th:first-of-type {
+  border-top-left-radius: 10px;
+}
+
+.stats-table thead th:last-of-type {
+  border-top-right-radius: 10px;
+}
+
+.stats-table tbody tr:nth-of-type(even) {
+  background-color: whitesmoke;
+}
+
+.stats-table tbody tr:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.stats-table tbody tr {
+  text-align: left;
+}
+
+.stats-table thead th {
+  text-align: left;
+}
+
+
+.stats-table th,
+.stats-table td {
+    padding: 12px 15px;
+    word-wrap: break-word;
+    max-width: 40vw
+}
+
+.download-button {
+  height: 40px;
+  display: flex;
+  border: 1px solid black;
+  margin: 15px 5px;
+  align-items: center;
+  width: 150px;
+  justify-content: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.download-caption {
+  text-decoration: none;
+  color: black;
+}
+
+.download-element {
+  padding-right: 8px;
+}
+
+.table-options-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.offset-limit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.offset-limit-container div {
+  padding-right: 1rem;
+  width: 10rem;
+}
+
+.offset-limit-container input {
+  height: 20px;
+  margin-top: 5px;
+}
+
+.offset-limit-container span {
+  font-weight: 500;
+}
